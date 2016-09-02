@@ -39,7 +39,7 @@ export class ImageCropperComponent extends Type {
     croppedWidth:number;
     croppedHeight:number;
 
-    intervalRef:number;
+    intervalRef:any;
 
     private renderer:Renderer;
 
